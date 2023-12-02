@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Poppins;
+    src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: bold;
+    src: url("fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 300;
+    src: url("fonts/Poppins-Light.ttf");
+}
+
+.menu {
+    font-family: Poppins;
+    color: #686565;
+}
+
+.uni {
+    position: absolute;
+    width: 251px;
+    height: 72px;
+    left: 78px;
+    top: -7px;
+
+
+
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    color: #0E0578;
+
+    mix-blend-mode: darken;
+
+}
+
+.about {
+    /* About Me */
+
+    position: absolute;
+    width: 148px;
+    height: 45px;
+    left: 570px;
+    top: 59px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    color: #686565;
+
+
+}
+
