@@ -17,6 +17,7 @@
 
 :root {
     --blue: #2000E7;
+    --purple:#3B1FEA;
 }
 
 .logo {
@@ -190,4 +191,41 @@ main {
     height: 925px;
     padding-left: 540.24px; 
     margin-top: -705px;  
+}
+
+.projects {
+    width: 1440px;
+    height: 910px;
+    background: #FFD69633;
+}
+
+.about-projects {    
+    margin-top: 300px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-projects > h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.2em;
+    color: var(--purple);
+}
+.about-projects > p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.project-list {
+    border-radius: 6px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 153px;
+    justify-content: space-around;
+    row-gap: 55px;
 }
