@@ -44,3 +44,45 @@
 .menu > a {
     text-decoration: none;
 }
+
+main {
+    font-family: Poppins;
+}
+
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    margin-left: 78px;
+    /* margin-top: 216px; */
+}
+
+.greeting > h1 {
+    width: 372px;
+    height: 45px;
+
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #2000E7;
+
+    /* margin-left: 78px; */
+    margin-top: 216px;
+}
+
+.greeting > h2 {
+    width: 447px;
+    height: 144px;
+    margin-top: -15px;
+    
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #2000E7;
+}
+
+.job {
+    color: #F2BD00;
+    margin-top: -72px;
+    margin-left: 152px;
+}
