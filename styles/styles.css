@@ -49,12 +49,8 @@
     text-decoration: none;
 }
 
-main {
-    font-family: Poppins;
-}
-
-
 .greeting {
+    font-family: Poppins;
     display: flex;
     flex-direction: column;
     margin-left: 78px;
@@ -147,4 +143,17 @@ main {
     gap: 79px;
     margin-top: 86px;
     flex-direction: row;
+}
+
+.my-photo {
+    width: 564px;
+    height: 564px;
+    margin-left: 702px;
+    margin-top: -450px;
+    
+}
+
+.my-photo > img {
+    border-radius: 0 0 0 191px;
+    box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.5);
 }
