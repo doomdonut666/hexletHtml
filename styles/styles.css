@@ -15,50 +15,32 @@
     src: url("fonts/Poppins-Light.ttf");
 }
 
-.menu {
-    font-family: Poppins;
-    color: #686565;
-}
-
-.uni {
-    position: absolute;
+.logo {
     width: 251px;
     height: 72px;
-    left: 78px;
-    top: -7px;
-
-
+    mix-blend-mode: darken;
+    margin-left: 78px;
 
     font-family: Poppins;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 48px;
     line-height: 72px;
-    /* identical to box height */
-
     color: #0E0578;
-
-    mix-blend-mode: darken;
-
 }
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
 
-.about {
-    /* About Me */
-
-    position: absolute;
-    width: 148px;
-    height: 45px;
-    left: 570px;
-    top: 59px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
+    font-family: Poppins;
+    font-weight: normal;
     font-size: 30px;
-    line-height: 45px;
-    /* identical to box height */
-
     color: #686565;
 
-
+    margin-top: -55px;
 }
 
+
+.menu > a {
+    text-decoration: none;
+}
