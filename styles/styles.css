@@ -10,9 +10,8 @@
 }
 
 @font-face {
-    font-family: Poppins;
-    font-weight: 300;
-    src: url("fonts/Poppins-Light.ttf");
+    font-family: Jost;
+    src: url("fonts/Jost-VariableFont_wght.ttf");
 }
 
 :root {
@@ -20,6 +19,7 @@
     --purple:#3B1FEA;
     --dark-purple: #220be8;
     --white: #FFFFFF;
+    --pink: #F965FC;
 }
 
 .logo {
@@ -269,14 +269,14 @@ main {
     display: flex;
     flex-direction: column;
     gap: 81px;
-    
+    margin-top: 159px;
+
 
     font-weight: normal;
     font-size: 32px;
     line-height: 48px;
     
     padding-left: 66px;
-    background-color: var(--white);
 }
 
 .small-input-box {
@@ -286,6 +286,7 @@ main {
     width: 653px;
     height: 79px;
     box-shadow: 13px 21px 4px 0px #00000040;
+
 }
 
 .large-input-box {
@@ -294,14 +295,169 @@ main {
     box-shadow: 13px 21px 4px 0px #00000040;
     
     padding-left: 55px;
+
 }
 
 .contact-button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+
     width: 327px;
     height: 79px;
-    margin-left: 164px;
+    
     box-shadow: 13px 21px 4px 0px #00000040;
+    margin-left: 164px;
+}
+
+
+.laptop-guy-img {
+    padding-left: 639px;
+    margin-top: -1055px
+}
+
+footer {
+    width: 1440px;
+    height: 809px;
+
+    margin-top: 208px;
+
+    font-family: Jost;
+    background-color: #FFD69633;
+}
+
+.footer-logo {
+    position: absolute;
+    left: 73px;
+    top: 5115px;
+    mix-blend-mode: darken;
+
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    color: #0E0578;
+}
+
+.subscribe-boxes {
+    padding-top: 280px;
+    display: flex;
+    
+    font-weight: bold;
+    color: var(--white);
+    font-size: 31px;
+    line-height: 44.8px;
+}
+
+.email-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 323px;
+    height: 97px;
+
+    border-radius: 30px;
+    margin-left: 26px;
+    padding-left: 33px;
+
+    background-color: #000000;
+
+}
+
+.subscribe-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 178px;
+    height: 97px;
+    margin-left: -90px;
+    
+    background-color: var(--pink);
+    border-radius: 30px;
+}
+
+.platform {
+    display: flex;
+    flex-direction: column;
+    height: 366px;
+    width: 160px;
+    margin-top: -240px;
+    margin-left: 570px;
+}
+
+.footer-headers {
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 44.8px;
+}
+
+.footer-things {
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 44.8px;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    height: 366px;
+    margin-left: 834px;
+    margin-top: -369px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    height: 188px;
+    margin-left: 1124px;
+    margin-top: -370px;
+}
+
+.copyright {
+    font-size: 32px;
+    line-height: 46.24px;
+    margin-left: 46px;
+    width: 639px;
+    height: 46px;
+    margin-top: 400px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+    margin-right: 30px;
+    margin-top: -80px;
+    gap: 52px;
+    flex-direction: row;
+
+
+}
+
+#youtube {
+    width: 72px;
+    height: 72px;
+}
+
+#instagram {
+    width: 76px;
+    height: 76px;
+    margin-top: -25px;
+}
+
+#facebook {
+    width: 18.68px;
+    height: 34.5px;
+    margin-top: -5px;
+}
+
+#linkedin {
+    width: 71px;
+    height: 71px;
+    margin-top: -22px;
 }
